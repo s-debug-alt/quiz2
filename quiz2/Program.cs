@@ -24,10 +24,10 @@ namespace quiz2
             Console.WriteLine("What is the promotion discount");
             // input code to turn into a double variable
             double discount = Convert.ToDouble(Console.ReadLine());
-            // caculate code for total price
+            // caculate code for after price
             double priceAfter = (price - price * discount);
-            cost
-            Console.WriteLine("The total cost is ");
+            // calculate code for total cost
+            Console.WriteLine("The total cost is " + (priceAfter + priceAfter * tax));
 
 
         }
